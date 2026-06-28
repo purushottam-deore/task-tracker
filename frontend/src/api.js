@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:5000/api/tasks",
+  baseURL: "https://task-tracker-9b4j.onrender.com/api/tasks",
 });
